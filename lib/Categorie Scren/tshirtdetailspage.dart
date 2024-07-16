@@ -161,7 +161,7 @@ class TShirtDetailPage extends StatelessWidget {
                                 TextStyle(fontSize: 18, color: Colors.white)),
                       ),
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.green, // Changed color
+                        backgroundColor: Colors.green,
                       ),
                     ),
                   ),
@@ -188,7 +188,7 @@ class TShirtDetailPage extends StatelessWidget {
                                 TextStyle(fontSize: 18, color: Colors.white)),
                       ),
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Color(0xFF4C53A5), // Changed color
+                        backgroundColor: Color(0xFF4C53A5), 
                       ),
                     ),
                   ),
