@@ -1,7 +1,7 @@
 TrendyThreads E-commerce Application
 
 
-TrendyThreads is a conversion-optimized E-commerce application designed to promote Men's wear and Kids wear, including products such as dresses, shoes, socks, glasses, and baby products. The application features a user-friendly interface, responsive design, and high-quality visuals to enhance the shopping experience.
+TrendyThreads is a conversion-optimized E-commerce application designed to promote Men's wear and Kids wear, including products such as dresses, shoes, socks, glasses, and baby products. The application features a user-friendly interface  and high-quality visuals to enhance the shopping experience.
 
 
 Requirements:
