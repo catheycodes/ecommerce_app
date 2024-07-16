@@ -1,4 +1,4 @@
-// ignore: file_names
+
 import 'package:flutter/material.dart';
 
 class ItemsWidget extends StatelessWidget {
@@ -6,7 +6,7 @@ class ItemsWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // List of image URLs
+   
     final List<String> imageUrls = [
     ];
 
@@ -47,11 +47,11 @@ class ItemsWidget extends StatelessWidget {
                 const SizedBox(height: 10),
                 InkWell(
                   onTap: () {
-                    // Add your onTap logic here
+                   
                   },
                   child: Container(
                     margin: const EdgeInsets.symmetric(vertical: 10),
-                    height: 180, // Adjusted height for a larger image
+                    height: 180, 
                     width: double.infinity,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
@@ -67,7 +67,7 @@ class ItemsWidget extends StatelessWidget {
                   'Product Title',
                   style: TextStyle(
                     fontSize: 18,
-                    // color: Colors.black,
+                   
                     color: Color(0xFF4C53A5),
                     fontWeight: FontWeight.bold,
                   ),
@@ -76,7 +76,7 @@ class ItemsWidget extends StatelessWidget {
                 const Text(
                   'High-quality materials, designed to last. Available in multiple sizes and colors.',
                   style: TextStyle(fontSize: 14, color: Colors.black
-                      // color: Color(0xFF4C53A5),
+                      
                       ),
                 ),
                 const SizedBox(height: 10),
