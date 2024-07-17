@@ -47,14 +47,14 @@ class _SecondPageState extends State<SecondPage> {
   void initState() {
     super.initState();
 
-    // Animate image opacity to fade in
+    
     Timer(Duration(milliseconds: 500), () {
       setState(() {
         _imageOpacity = 1.0;
       });
     });
 
-    // Navigate to home page after 2 seconds
+    
     Timer(Duration(seconds: 2), () {
       Navigator.pushReplacement(
         context,
