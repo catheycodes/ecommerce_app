@@ -58,10 +58,10 @@ class CategoryDetailPage extends StatelessWidget {
       body: GridView.builder(
         scrollDirection: Axis.horizontal,
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 1, // Only one row of items
+          crossAxisCount: 1, 
           mainAxisSpacing: 8.0,
           crossAxisSpacing: 8.0,
-          childAspectRatio: 0.6, // Adjust this value to make containers larger
+          childAspectRatio: 0.6, 
         ),
         itemCount: tShirtData.length,
         itemBuilder: (context, index) {
