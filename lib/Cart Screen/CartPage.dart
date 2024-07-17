@@ -32,7 +32,7 @@ class CartPage extends StatelessWidget {
         trailing: IconButton(
           icon: Icon(Icons.delete),
           onPressed: () {
-            // Implement delete functionality here
+            
             cartItems.remove(item);
             ScaffoldMessenger.of(context).showSnackBar(
               SnackBar(
