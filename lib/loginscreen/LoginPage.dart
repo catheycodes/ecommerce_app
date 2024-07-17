@@ -83,9 +83,9 @@ class LoginPage extends StatelessWidget {
                 style: ElevatedButton.styleFrom(
                   padding: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
                   backgroundColor:
-                      Color(0xFF4C53A5), // Adjust background color as needed
+                      Color(0xFF4C53A5), 
                   textStyle:
-                      TextStyle(fontSize: 20), // Adjust text size as needed
+                      TextStyle(fontSize: 20), 
                 ),
                 child: Text(
                   'Submit',
@@ -108,7 +108,7 @@ class SignUpPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          // title: Text('Sign Up'),
+        
           ),
       body: Center(
         child: Padding(
@@ -157,9 +157,9 @@ class SignUpPage extends StatelessWidget {
                 style: ElevatedButton.styleFrom(
                   padding: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
                   backgroundColor:
-                      Colors.blue, // Adjust background color as needed
+                      Colors.blue, 
                   textStyle:
-                      TextStyle(fontSize: 20), // Adjust text size as needed
+                      TextStyle(fontSize: 20), 
                 ),
                 child: Text(
                   'Sign Up',
