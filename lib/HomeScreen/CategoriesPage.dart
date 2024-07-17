@@ -48,7 +48,7 @@ class Categories extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => KidsClothingPage()),
                 );
               }
-              // Add similar logic for other categories as needed
+             
             },
             child: Container(
               margin: EdgeInsets.symmetric(horizontal: 10),
@@ -65,7 +65,7 @@ class Categories extends StatelessWidget {
                           color: Colors.grey.withOpacity(0.5),
                           spreadRadius: 2,
                           blurRadius: 5,
-                          offset: Offset(0, 3), // changes position of shadow
+                          offset: Offset(0, 3), 
                         ),
                       ],
                     ),
