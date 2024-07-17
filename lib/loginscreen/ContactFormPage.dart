@@ -1,6 +1,6 @@
 import 'package:ecommerce_app/HomeScreen/HomePage.dart';
 import 'package:flutter/material.dart';
-// Replace with your actual import for HomePage
+
 
 class ContactFormPage extends StatefulWidget {
   @override
@@ -44,7 +44,7 @@ class _ContactFormPageState extends State<ContactFormPage> {
             actions: [
               TextButton(
                 onPressed: () {
-                  Navigator.of(context).pop(); // Close the dialog
+                  Navigator.of(context).pop(); 
                   Navigator.of(context).pushReplacement(
                     // Navigate to the homepage
                     MaterialPageRoute(
@@ -91,7 +91,7 @@ class _ContactFormPageState extends State<ContactFormPage> {
                   ],
                 ),
               ),
-              // Actual Form
+             
               Form(
                 key: _formKey,
                 child: Column(
