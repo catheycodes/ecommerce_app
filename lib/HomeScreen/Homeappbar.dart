@@ -12,7 +12,7 @@ class HomeAppBar extends StatelessWidget {
         children: [
           CircleAvatar(
             backgroundColor:
-                Color(0xFF4C53A5), // Replace with your desired color
+                Color(0xFF4C53A5), 
             radius: 15,
             child: Icon(
               Icons.person,
