@@ -153,7 +153,7 @@ class _HomePageState extends State<HomePage> {
                   color: Colors.black87),
             ),
           ),
-          ItemsWidget(), // Replace with your ItemsWidget implementation
+          ItemsWidget(), 
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
